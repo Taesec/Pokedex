@@ -1,0 +1,54 @@
+img{
+    margin: auto;
+    width: 15vw;
+    height: 15vw;
+    left: -5vw;
+    top: -3vw;
+    position: relative; 
+    
+}
+
+
+menu{
+    top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    height: 4%;
+    width: 18%;
+    margin: 15vw 0 0 45vw;
+    position: absolute;
+    font-size: 1vw;
+}
+
+h1{
+        
+    width:90%;
+    margin: -4vw 0 0 -7vw;
+    position: absolute;
+    font-size: 1vw;
+}
+
+h2{
+    
+    width: 90%;
+    margin: -17vw 0 0 14vw;
+    position: absolute;
+    font-size: 1vw;
+}
+
+h3{
+    
+    width:90%;
+    margin: -4vw 0 0 5vw;
+    position: absolute;
+    font-size: 1vw;
+}
+
+h4{
+    
+    width:5vw;
+    margin: -6.3vw 0 0 -7vw;
+    position: absolute;
+    font-size: 1vw;
+}

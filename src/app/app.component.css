@@ -1,0 +1,17 @@
+img{
+    margin: auto;
+    width: 60%;
+    height: 60%;
+    left: 21%;
+    top: 17%;
+    position: absolute; 
+    
+}
+
+body{
+    background-image: image("myimage");
+    background-size: cover;
+    background-repeat:no-repeat;
+  background-position: center center;
+    background-color: rgba(46, 44, 44, 0.822);
+}

@@ -1,0 +1,15 @@
+<body>
+<menu>
+  <div class="list-group">
+    <tr *ngFor="let pokemon of pokemons">
+        <button type="button" class="list-group-item list-group-item-action lista_container" (click)="clicktodo(pokemon.url)" onclick="mostrarInfo()">{{pokemon.name}}</button>
+    </tr>
+  </div>
+</menu>
+
+<div id="inf"> 
+  <app-b ></app-b>
+</div>
+  
+
+  </body> 

@@ -1,0 +1,32 @@
+<menu >
+    <div class="list-group" >
+      <img [src]="myimages">
+      
+    </div>
+    <div class="list-group">
+    <h4>
+      <a class="list-group-item list-group-item-action">Tipo</a>
+    </h4>
+    <h1>
+      <tr *ngFor="let tipo of folder">
+        <a class="list-group-item list-group-item-action">{{tipo.type.name}}</a>
+      </tr>
+    </h1>
+    <h2>
+      <tr *ngFor="let estadistica of estadisticas">
+        <a class="list-group-item list-group-item-action">{{estadistica.stat.name}}  {{estadistica.base_stat}}</a>
+      </tr>
+    </h2>
+    </div>
+    
+  
+    <div class="list-group">  
+      <h3>
+      <tr>
+        <a class="list-group-item list-group-item-action">peso {{peso}}.kg</a>
+        <a class="list-group-item list-group-item-action">altura {{altura}}.ft</a>
+      </tr>
+      </h3>
+    </div>
+        
+  </menu>
